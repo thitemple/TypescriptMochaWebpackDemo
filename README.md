@@ -1,5 +1,4 @@
-# TypescriptMochaWebpackDemo
-How to setup testsing using Typescript, Mocha, Chai, Sinon, Karma and Webpack.
+# How to setup testing using Typescript, Mocha, Chai, Sinon, Karma and Webpack.
 
 Just clone/fork.
 
