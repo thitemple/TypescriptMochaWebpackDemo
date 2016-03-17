@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "tsd reinstall --overwrite --save",
     "test": "karma start"
   },
   "author": "",
