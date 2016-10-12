@@ -23,6 +23,7 @@
     "sinon": "^1.17.3",
     "ts-loader": "^0.8.0",
     "typescript": "^1.8.0",
+    "typings": "^1.4.0",
     "webpack": "^1.12.12"
   },
   "dependencies": {
