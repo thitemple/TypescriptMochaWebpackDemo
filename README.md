@@ -10,7 +10,9 @@ Sample source code based on blog post: [How to setup testing using Typescript, M
 4. Download this repo (clone / fork)
 5. `npm install` - Installs packages (post install step added to package.json configuration file in order to execute tsd install after installing packages)
 6. `npm test` - Will execute karma start and run the tests (this step has been added to the package.json configuration file).
+7. `npm run coverage` - Will execute karma start and run the tests and generate a coverage report (this step has been added to the package.json configuration file).
 
 # Change Log:  
 
+- Mar 22, 2017 - Add coverage for karma tests
 - Mar 17, 2015 - Added post install step to automatically run typings install after npm install.
