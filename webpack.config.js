@@ -4,14 +4,14 @@ module.exports = {
     filename: 'dist/bundle.js'
   },
   resolve: {
-    extensions: ['.ts', '.js', '.tsx', '.jsx', '']
+    extensions: ['.ts', '.js', '.tsx', '.jsx']
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
-        loader: 'ts-loader'
+        loader: 'awesome-typescript-loader'
       }
     ]
   }
